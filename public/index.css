@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom, rgb(255, 230, 118) 0%, rgb(255, 207, 161) 100%);
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+    color: rgb(51, 63, 105);
+  }
+  .container{
+      text-align: center;
+      margin-top: 4px;
+      margin-bottom: 100px;
+  }
+  h1{
+      font-size: 3em;
+  }
+  .routes{
+      width:fit-content;
+      margin: 0 auto;
+  }
+  .get{
+    background: radial-gradient(ellipse at center, rgba(150,204,0,1) 0%, rgba(87,159,20,1) 100%);
+    color: rgb(223, 255, 209);
+    border-radius: 10%;
+    padding:4px;
+  }
+  .post{
+    background: radial-gradient(ellipse at center, rgb(255, 187, 0) 0%, rgb(255, 157, 0) 100%);
+    color: rgb(255, 243, 209);
+    border-radius: 10%;
+    padding:4px;
+  }
+  .put{
+    background: radial-gradient(ellipse at center, rgba(61,150,240,1) 0%, rgba(3,91,150,1) 100%);
+    color: rgb(209, 244, 255);
+    border-radius: 10%;
+    padding:4px;
+  }
+  .delete{
+    background: radial-gradient(ellipse at center, rgba(240,80,62,1) 0%, rgba(148,3,3,1) 100%);
+    color: rgb(255, 209, 209);
+    border-radius: 10%;
+    padding:4px;
+  }
